@@ -14,7 +14,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name="AppLogin" component={AppLogin}
                     options={{
-                        title: 'Página de Login',
+                        title: 'ListCompras',
                         headerStyle: {
                           backgroundColor: 'blue'                                                    
                         },

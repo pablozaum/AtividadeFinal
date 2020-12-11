@@ -71,14 +71,7 @@ const ref_input2 = useRef();
     </View>*/
     <View style={styles.container}>
       <StatusBar style="light" />
-      <Image 
-        source={require('./assets/lista.jpg')}
-        style={
-          width= 300,
-          height= 300,
-          borderRadius= 200
-        }
-      />
+      <Text style={styles.title}>Login</Text>
       {/* <Text style={styles.title}>Logar no Sistema</Text> */}
       <View style={styles.inputContainer}> 
         <Text>Email:</Text>
@@ -123,13 +116,13 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff',
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
-    marginTop: 50,
+    marginTop: 10,
   },
   inputContainer: {
     flex: 1,
-    marginTop: 30,
+    marginTop: 20,
     width: '90%',
     padding: 20,
     borderTopLeftRadius: 10,
