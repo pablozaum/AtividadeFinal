@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import firebase from './Firebase';
 
@@ -71,6 +71,14 @@ const ref_input2 = useRef();
     </View>*/
     <View style={styles.container}>
       <StatusBar style="light" />
+      <Image 
+        source={require('./assets/lista.jpg')}
+        style={
+          width= 300,
+          height= 300,
+          borderRadius= 200
+        }
+      />
       {/* <Text style={styles.title}>Logar no Sistema</Text> */}
       <View style={styles.inputContainer}> 
         <Text>Email:</Text>
